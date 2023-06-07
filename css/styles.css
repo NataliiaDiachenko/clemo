@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+
+.container {
+  width: 1148px;
+  margin: auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 63px 0;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 25px;
+}
+
+.header-menu-list a {
+  text-decoration: none;
+  color: #989898;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.header-logo {
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header-overlay {
+  padding: 136px 0 108px 0;
+  text-align: center;
+  background-color: #ffe1bd;
+}
+
+.header-overlay h1 {
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.header-overlay h1::before {
+  content: "";
+  width: 55px;
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+
+.header-overlay p {
+  margin: 25px 0 80px 0;
+}
+
+.header-btn,
+.work-btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+
+/* --------main-------*/
+
+.about {
+  padding: 87px 0;
+}
+
+.about-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.text-block h3 {
+  font-size: 30px;
+  font-weight: 300;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.text-block h3::before {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 2px;
+  background-color: #000000;
+  bottom: 0;
+  left: 0;
+}
+
+.text-block span {
+  font-size: 48px;
+  font-weight: 700;
+  display: block;
+}
+
+.img-block {
+  width: 560px;
+  height: 560px;
+  background-color: #dadada;
+}
+
+.text-block {
+  width: 474px;
+}
+
+.about div:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+.text-block p {
+  margin-bottom: 49px;
+  padding-top: 28px;
+  color: #656565;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.text-block-btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.work {
+  padding: 84px 0 50px 0;
+  text-align: center;
+}
+
+.block-gallery {
+  margin: 100px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+  height: 982px;
+}
+
+.column-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.small {
+  width: 364px;
+  height: 364px;
+  background-color: #dadada;
+}
+
+.large {
+  width: 364px;
+  height: 590px;
+  background-color: #dadada;
+}
+
+.block-gallery div:nth-child(2) {
+  flex-direction: column-reverse;
+}
+
+.team {
+  padding: 86px 0 163px 0;
+  background-color: #ffe1bd;
+}
+
+.team-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 126px;
+  margin-top: 101px;
+}
+
+.team-block {
+  display: flex;
+  width: 230px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.team-img-block {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.team-text-block h4 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.team-text-block h4::before {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 3px;
+  background-color: #000000;
+  bottom: 0;
+  left: 40%;
+}
+
+.team-text-block p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.reviews-container {
+  padding: 85px 0 195px 0;
+  width: 1148px;
+  margin: auto;
+}
+
+.reviews-text-blocks {
+  margin-top: 83px;
+  display: flex;
+  gap: 96px;
+}
+
+.reviews-title {
+  text-align: right;
+  width: 495px;
+  display: flex;
+  flex-direction: column;
+}
+.reviews-text {
+  width: 574px;
+  display: flex;
+}
+
+.reviews-title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 19px;
+}
+
+.reviews-title h3::before {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 3px;
+  background-color: #000000;
+  bottom: 0;
+  right: 0;
+}
+
+.reviews-title p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.reviews-text {
+  color: #656565;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 475px;
+}
+
+.reviews-img-blocks {
+  gap: 28px;
+  justify-content: space-between;
+  margin-top: 78px;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-img-block {
+  width: 266px;
+  height: 140px;
+  background-color: #dadada;
+}
+
+.footer {
+  padding: 87px 0 100px 0;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100vw;
+}
+
+.footer-container {
+  width: 1148px;
+  margin: auto;
+  display: flex;
+  margin-top: 84px;
+  gap: 170px;
+}
+
+.footer-adress p {
+  margin-bottom: 45px;
+}
+
+.footer-adress-item {
+  display: flex;
+  align-items: baseline;
+  gap: 23px;
+}
+
+.footer-btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-social img {
+  margin-right: 20px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  width: 462px;
+  justify-content: center;
+  gap: 46px;
+}
+
+.footer-form input {
+  outline: none;
+  color: #ffffff;
+  padding-bottom: 20px;
+  background-color: #000000;
+  border: none;
+  border-bottom: 1px solid #333333;
+}
+
+.footer-form input::placeholder {
+  color: #7f7f7f;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+}
